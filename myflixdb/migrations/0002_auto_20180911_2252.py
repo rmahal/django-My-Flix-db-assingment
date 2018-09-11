@@ -24,9 +24,9 @@ def fallow(apps, schema_editor):
     User = apps.get_model('myflixdb', 'User')
     Flix = apps.get_model('myflixdb', 'Flix')
     Like = apps.get_model('myflixdb', 'Like')
-    User.objects.all().delete()
-    Flix.objects.all().delete()
-    Like.objects.all().delete()
+    #User.objects.all().delete()
+    #Flix.objects.all().delete()
+    #Like.objects.all().delete()
 
 class Migration(migrations.Migration):
 
